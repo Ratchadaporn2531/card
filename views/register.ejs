@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>depa One Stop Services</title>
+	<meta name="description" content="depa www.depa.or.th,ซอฟต์แวร์ไทย,ไทยซอฟต์แวร์,Software Thai,Thai Software,เศรษฐกิจดิจิทัล,เศรษฐกิจดิจิตัล,digital,ดิจิตัล,นวัตกรรม,smart,digital,innovation,ประชารัฐ,startup,sme,economy">
+	<meta name="keywords" content="one stop services,ซอฟต์แวร์ไทย,ไทยซอฟต์แวร์,Software Thai,Thai Software,เศรษฐกิจดิจิทัล,เศรษฐกิจดิจิตัล,digital,ดิจิตัล,นวัตกรรม,smart,digital,innovation,ประชารัฐ,startup,sme,economy">
+<meta name="author" content="Nutthawut Paleegui">
+
+<!-- Standard Favicon-->
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+<!-- Standard iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="57x57" href="/images/touchicons/apple-touch-icon-57-precomposed.html" />
+<!-- Retina iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/touchicons/apple-touch-icon-114-precomposed.html" />
+<!-- Standard iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/touchicons/apple-touch-icon-72-precomposed.html" />
+<!-- Retina iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/touchicons/apple-touch-icon-144-precomposed.html" />
+
+<!-- Bootstrap CSS Files -->
+<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+<!-- Custom Fonts Setup via Font-face CSS3 -->
+<link href="/fonts/fonts.css" rel="stylesheet">
+<!-- CSS files for plugins -->
+<link href="/stylesheets/pace.preloader.css" rel="stylesheet">
+<link href="/stylesheets/owl.carousel.css" rel="stylesheet">
+<link href="/stylesheets/owl.theme.css" rel="stylesheet">
+<link href="/stylesheets/jquery.tweet.css" rel="stylesheet"/>
+<link href="/stylesheets/slidingmenu.css" rel="stylesheet">
+<link href="/stylesheets/venobox.css" rel="stylesheet" />	
+<link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="/stylesheets/main.css" rel="stylesheet">
+<!-- Main Template Responsive Styles -->
+<link href="/stylesheets/main-responsive.css" rel="stylesheet">
+<!-- Main Template Retina Optimizaton Rules -->
+<link href="/stylesheets/main-retina.css" rel="stylesheet">
+<!-- LESS stylesheet for managing color presets -->
+<link rel="stylesheet/less" type="text/css" href="/less/color.less">	
+
+<style type="text/css">
+tr.group td,
+tr.group td :hover {
+    background-color: #FFEA2F !important;
+	opacity: 1;
+}
+</style>
+<style type="text/css" id="less:less-color">.dark-bg {
+  background: #333333 !important;
+}
+.white-bg {
+  background: #ffffff !important;
+}
+.high-bg {
+  background: #ffea2f !important;
+}
+.grey-bg {
+  background: #eeeeee !important;
+}
+.dark-text {
+  color: #333333 !important;
+}
+.white-text {
+  color: #ffffff !important;
+}
+.grey-text {
+  color: #eeeeee !important;
+}
+.high-text {
+  color: #ffea2f !important;
+}
+.border-top-main {
+  border-top: solid 50px #ffea2f;
+}
+.border-top-dark {
+  border-top: solid 50px #333333;
+}
+.border-top-white {
+  border-top: solid 50px #ffffff;
+}
+.border-top-grey {
+  border-top: solid 50px #eeeeee;
+}
+.image-lightbox-link > img {
+  background: #ffea2f;
+}
+.image-lightbox-link > img:hover {
+  background: #333333;
+}
+.image-lightbox-link.color-alt > img {
+  background: #333333;
+}
+.image-lightbox-link.color-alt > img:hover {
+  background: #ffea2f;
+}
+.menu a.active {
+  color: #333333;
+  background: #ffea2f;
+}
+.menu a:hover {
+  background: #ffea2f;
+  color: #333333;
+}
+.main-heading > span {
+  color: #ffea2f;
+}
+.sub-heading > span {
+  border-bottom: solid 1px #ffea2f;
+}
+.liner-medium,
+.liner-small {
+  background: #ffea2f;
+}
+.high-bg > .liner-medium,
+.high-bg > .liner-small {
+  background: #333333;
+}
+.stats-info > span {
+  color: #ffea2f;
+}
+.about-featured {
+  background: #ffea2f;
+}
+.testimonial-wrap {
+  background: #ffea2f;
+}
+#mastfoot {
+  background: #ffffff;
+}
+.credit-panel {
+  background: #ffffff;
+  border-top: solid 1px #eeeeee;
+}
+.btn-identity-color {
+  border: solid 1px #333333;
+  color: #333333;
+}
+.btn-identity-color:hover {
+  border: solid 1px #333333;
+  background: #ffea2f;
+  color: #333333;
+}
+.pace .pace-progress {
+  background: #ffea2f;
+}
+.pace .pace-progress:after {
+  color: #ffffff !important;
+}
+.handle:hover {
+  color: #ffea2f;
+}
+.gallery-browse li span {
+  background: #ffea2f;
+}
+.gallery-browse li span:hover {
+  border: solid 1px #ffea2f;
+  background: #ffffff;
+}
+.gallery-browse li span:hover > a {
+  color: #ffea2f;
+}
+.grid li:hover figcaption {
+  background: #ffea2f;
+}
+.grid li:hover h3,
+.grid li:hover p {
+  color: #ffffff;
+}
+.grid li:hover .liner-small {
+  background: #333333;
+}
+.portfolio-filter li span {
+  background: #ffffff;
+}
+.portfolio-filter li span > a {
+  color: #333333;
+}
+.portfolio-filter li span:hover,
+.portfolio-filter li span.triggered {
+  border: solid 1px #ffffff;
+  background: #ffea2f;
+}
+.portfolio-filter li span.triggered > a {
+  color: #ffffff;
+}
+.portfolio-filter li span:hover > a {
+  color: #ffffff;
+}
+.mediafolio-filter li {
+  border: solid 1px #ffffff;
+  background: #ffffff;
+  color: #333333;
+}
+.mediafolio-filter li:hover {
+  border: solid 1px #ffffff;
+  background: #ffea2f;
+  color: #ffffff;
+}
+.mediafolio-filter li.triggered {
+  border: solid 1px #ffffff;
+  background: #ffea2f;
+  color: #ffffff;
+}
+.swiper-scrollbar {
+  background: #333333;
+}
+.swiper-scrollbar-drag {
+  background: #ffea2f;
+}
+.va-slice ul li a,
+.va-nav,
+.va-title > span {
+  background: #ffea2f;
+}
+.intro-03-headletters {
+  background: rgba(255, 198, 14, 0.9);
+}
+.intro-03-sub-heading > span {
+  border-bottom: solid 1px #ffffff;
+}
+.mediafolio-caps > p > span {
+  color: #ffea2f;
+}
+.intro-08-sub-heading > span {
+  color: #ffffff;
+  background: #ffea2f;
+}
+.home-badge {
+  border: solid 12px #ffea2f;
+}
+.rounded-icon:hover {
+  background-color: #ffea2f;
+}
+.rounded-icon:hover > a {
+  color: #ffffff;
+}
+.alert {
+  background: #ffea2f;
+}
+.alert > p {
+  color: #333333 !important;
+}
+</style>
+<script src="/less/less-1.5.0.min.js"></script>
+<script src="/javascripts/modernizr.custom.js"></script>
+</head>
+
+<body>
+<nav class="menu" id="sm">
+	<div class="sm-wrap">
+		<div id="logo" class="text-center"><img alt="" title="" src=""/></div>
+		<a class="active" href="" id="nav_home">Home</a>
+		<a href="" id="nav_register_create">ขอรับบริการ</a>
+		<a href="" id="nav_register">ประวัติการขอรับบริการ</a>
+		<a href="" id="nav_event">กิจกรรม</a>
+	</div>
+	<!-- Navigation Trigger Button -->
+	<div id="sm-trigger"><p id="vertical-logo">DOSS</p></div>
+</nav>
+<section id="mastwrap" class="sliding">
+
+<!-- page-section : starts -->
+<section id="contact" class="">
+	
+
+	<!-- inner-section : starts -->
+	<section id="contact-wrap" class="inner-section">
+
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-2 text-left">
+					<div class="welcome pad-common border-top-main">
+						<h1 class="main-heading"></h1>
+						<span class="liner-medium"></span>
+						<h3 class="sub-heading dark-text"><span>ขอรับบริการ </span></h3>
+					</div>
+				</article>
+
+
+				<article class="col-md-10 text-left grey-bg ">
+					
+					<div class="contact-item pad-common grey-bg border-top-dark col-md-6">
+						<h2 class="inner-heading dark-text">ข้อมูลส่วนตัว</h2>
+				
+						<button type="button" onClick="window.location='/submit';">อ่านบัตร</button>
+						
+						
+						<span class="liner-small"></span>
+						<div class="alert alert-error error add-top-half" id="fpersonal_name">
+							<p>กรุณาระบุชื่อ</p>
+						</div>
+					
+						 <div class="alert alert-error  error add-top-half" id="fpersonal_id">
+							 <p>กรุณาระบุเลขที่ประจําตัวประชาชน </p>
+						 </div>
+						<div class="alert alert-error error add-top-half" id="fpersonal_phone">
+							<p>กรุณาระบุเบอร์โทรศัพท์</p>
+						</div>
+						<div class="alert alert-error  error add-top-half" id="fpersonal_mobile">
+							<p>กรุณาระบุเบอร์โทรศัพท์มือถือ</p>
+						</div>
+						<div class="alert alert-error  error add-top-half" id="fcompany_name">
+							<p>กรุณาระบุชื่อบริษัท</p>
+						</div>
+						
+						 <div class="alert alert-error  error add-top-half" id="fpersonal_email">
+							 <p>กรุณาระบุอีเมลล์</p>
+						 </div>				
+
+								<article>
+									<input type="text" id="personal_name" name="personal_name" placeholder="ชื่อ" >
+								</article>
+
+						        <article>
+									<input type="text" id="personal_id" name="personal_id" placeholder="เลขที่ประจําตัวประชาชน" >
+								</article>
+								<article>
+									<input type="text" id="company_name" name="company_name" placeholder="ชื่อบริษัท">
+								</article>
+								<article>
+									<input type="hidden" id="company_type" name="company_type" placeholder="ประเภทองค์กร" value="-">
+								</article>
+								<article>
+									<input type="hidden" id="personal_position" name="personal_position" placeholder="ตำแหน่ง" value="-">
+								</article>
+								<article>
+									 <input type="hidden" id="personal_email" name="personal_email" placeholder="อีเมลล์" value="null@gmail.com" >
+								 </article>
+						<article>
+									<input type="text" id="personal_mobile" name="personal_mobile" placeholder="เบอร์โทรศัพท์"  >
+								</article>
+								<article>
+									<input type="text" id="personal_email" name="personal_email" placeholder="อีเมลล์" >
+									
+									<input type="text" id="category_support" name="category_support" placeholder="เรื่องที่ขอรับบริการ" value="" readonly style="display: none">
+									<input type="text" id="event_id" name="event_id" placeholder="event_id" value="" readonly style="display: none">
+								 </article>
+						
+						<article>
+							<label for="category_support">เรื่องที่ขอรับบริการ</label>
+							<article>
+									
+									
+									<input type="text" id="category_support" name="category_support" placeholder="เรื่องที่ขอรับบริการ" value="" >
+									<input type="text" id="event_id" name="event_id" placeholder="event_id" value="" readonly style="display: none">
+									<input type="text" id="category_type" name="category_type" value="1" readonly style="display: none">
+									<input type="text" id="page" name="page" value="register.category" readonly style="display: none">
+									<input type="text" id="service_title" name="service_title" placeholder="เรื่องที่รับบริการ"  >
+								 </article>
+						
+						
+						</article>
+						
+						<article>
+							<div class="btn-wrap">
+								<button class="btn btn-identity-color" id="submit" name="submit" type="submit">ลงทะเบียน</button>
+							</div>
+						</article>
+
+					</div>
+					<div class="contact-item pad-common grey-bg border-top-dark col-md-6">
+
+						<table id="tbl_profile" class="table table-striped table-bordered" style="width:100%">
+							<thead>
+								<tr>
+									<th>ชื่อ - สกุล</th>
+									<th>ชื่อบริษัท</th>
+									<th>รายการขอรับบริการ</th>
+							
+								
+								</tr>
+							</thead>
+							<tbody>
+								
+								<tr>
+									<td></td>
+								  
+									<td></td>
+									<td></td>
+									
+								</tr>						
+						
+								
+
+							</tbody>
+						</table>
+
+					</div>
+
+				
+				</article>
+
+				<article class="col-md-4 text-left">
+					<!-- empty column -->
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+
+	</section>
+	<!-- inner-section : ends -->
+</section>
+<!-- page-section : ends -->
+<footer id="mastfoot" class="clearfix">
+	<!-- inner-section : starts -->
+	<section class="inner-section foot-top">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-4 text-left">
+					<a class="handle" href="index">@depathailand</a>
+				</article>
+				<article class="col-md-8 text-right">
+					<ul class="foot-social">
+						<li><a href="https://www.facebook.com/DEPATHAI/"><img title="" alt="" src="/images/social/facebook-logo.png"/></a></li>
+						<li><a href="https://www.youtube.com/channel/UCwXHoijhO-aJQpIlEmUxB0w"><img title="" alt="" src="/images/social/youtube-logo.png"/></a></li>
+					</ul>
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->	
+
+	<!-- inner-section : starts -->
+	<section class="inner-section credit-panel">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-10 text-left">
+					<p>สำนักงานส่งเสริมเศรษฐกิจดิจิทัล (สำนักงานใหญ่) เลขที่80 ถนนลาดพร้าว ซอยลาดพร้าว 4 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900<br>
+โทรศัพท์ : (+66) 0-2026-2333
+โทรสาร : (+66) 0-2026-2333
+อีเมล์ : doss@depa.or.th</p>
+				</article>
+				<article class="col-md-2 text-right">
+					
+					<p>Copyright &copy; 2018 depa.</p>
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->	
+</footer>
+
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="/bootstrap/js/jquery.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/bootstrap/js/bootstrap.js" ></script> 
+<!-- JS Plugins -->
+<script src="/javascripts/pace.min.js"></script>
+<script src="/javascripts/retina.js" ></script> 
+<script src="/javascripts/classie.js" ></script> 
+<script src="/javascripts/jquery.touchSwipe.js"></script>
+<script src="/javascripts/owl.carousel.js"></script>
+<script src="/javascripts/jquery.mixitup.js"></script>
+<script src="/javascripts/venobox.min.js"></script>
+<script src="/javascripts/jquery.tweet.js"></script>
+<script src="/javascripts/jquery.stellar.js"></script>
+<script src="/javascripts/smooth-scroll.js"></script>
+<script src="/javascripts/jquery.appear.js"></script>
+<script src="/javascripts/slidingmenu.js"></script>
+
+<!-- JS Custom Codes --> 
+
+<script src="/javascripts/main.js" ></script> 
+
+<script src="/javascripts/form-validation.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.vaccordion.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
+</body>
+</html>

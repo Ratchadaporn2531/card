@@ -1,0 +1,195 @@
+.dark-bg {
+  background: #333333 !important;
+}
+.white-bg {
+  background: #ffffff !important;
+}
+.high-bg {
+  background: #FFEA2F !important;
+}
+.grey-bg {
+  background: #eeeeee !important;
+}
+.dark-text {
+  color: #333333 !important;
+}
+.white-text {
+  color: #ffffff !important;
+}
+.grey-text {
+  color: #eeeeee !important;
+}
+.high-text {
+  color: #FFEA2F !important;
+}
+.border-top-main {
+  border-top: solid 50px #FFEA2F;
+}
+.border-top-dark {
+  border-top: solid 50px #333333;
+}
+.border-top-white {
+  border-top: solid 50px #ffffff;
+}
+.border-top-grey {
+  border-top: solid 50px #eeeeee;
+}
+.image-lightbox-link > img {
+  background: #FFEA2F;
+}
+.image-lightbox-link > img:hover {
+  background: #333333;
+}
+.image-lightbox-link.color-alt > img {
+  background: #333333;
+}
+.image-lightbox-link.color-alt > img:hover {
+  background: #FFEA2F;
+}
+.menu a.active {
+  color: #333333;
+  background: #FFEA2F;
+}
+.menu a:hover {
+  background: #FFEA2F;
+  color: #333333;
+}
+.main-heading > span {
+  color: #FFEA2F;
+}
+.sub-heading > span {
+  border-bottom: solid 1px #FFEA2F;
+}
+.liner-medium,
+.liner-small {
+  background: #FFEA2F;
+}
+.high-bg > .liner-medium,
+.high-bg > .liner-small {
+  background: #333333;
+}
+.stats-info > span {
+  color: #FFEA2F;
+}
+.about-featured {
+  background: #FFEA2F;
+}
+.testimonial-wrap {
+  background: #FFEA2F;
+}
+#mastfoot {
+  background: #ffffff;
+}
+.credit-panel {
+  background: #ffffff;
+  border-top: solid 1px #eeeeee;
+}
+.btn-identity-color {
+  border: solid 1px #333333;
+  color: #333333;
+}
+.btn-identity-color:hover {
+  border: solid 1px #333333;
+  background: #FFEA2F;
+  color: #333333;
+}
+.pace .pace-progress {
+  background: #FFEA2F;
+}
+.pace .pace-progress:after {
+  color: #ffffff !important;
+}
+.handle:hover {
+  color: #FFEA2F;
+}
+.gallery-browse li span {
+  background: #FFEA2F;
+}
+.gallery-browse li span:hover {
+  border: solid 1px #FFEA2F;
+  background: #ffffff;
+}
+.gallery-browse li span:hover > a {
+  color: #FFEA2F;
+}
+.grid li:hover figcaption {
+  background: #FFEA2F;
+}
+.grid li:hover h3,
+.grid li:hover p {
+  color: #ffffff;
+}
+.grid li:hover .liner-small {
+  background: #333333;
+}
+.portfolio-filter li span {
+  background: #ffffff;
+}
+.portfolio-filter li span > a {
+  color: #333333;
+}
+.portfolio-filter li span:hover,
+.portfolio-filter li span.triggered {
+  border: solid 1px #ffffff;
+  background: #FFEA2F;
+}
+.portfolio-filter li span.triggered > a {
+  color: #ffffff;
+}
+.portfolio-filter li span:hover > a {
+  color: #ffffff;
+}
+.mediafolio-filter li {
+  border: solid 1px #ffffff;
+  background: #ffffff;
+  color: #333333;
+}
+.mediafolio-filter li:hover {
+  border: solid 1px #ffffff;
+  background: #FFEA2F;
+  color: #ffffff;
+}
+.mediafolio-filter li.triggered {
+  border: solid 1px #ffffff;
+  background: #FFEA2F;
+  color: #ffffff;
+}
+.swiper-scrollbar {
+  background: #333333;
+}
+.swiper-scrollbar-drag {
+  background: #FFEA2F;
+}
+.va-slice ul li a,
+.va-nav,
+.va-title > span {
+  background: #FFEA2F;
+}
+.intro-03-headletters {
+  background: rgba(255, 198, 14, 0.9);
+}
+.intro-03-sub-heading > span {
+  border-bottom: solid 1px #ffffff;
+}
+.mediafolio-caps > p > span {
+  color: #FFEA2F;
+}
+.intro-08-sub-heading > span {
+  color: #ffffff;
+  background: #FFEA2F;
+}
+.home-badge {
+  border: solid 12px #FFEA2F;
+}
+.rounded-icon:hover {
+  background-color: #FFEA2F;
+}
+.rounded-icon:hover > a {
+  color: #ffffff;
+}
+.alert {
+  background: #FFEA2F;
+}
+.alert > p {
+  color: #333333 !important;
+}
